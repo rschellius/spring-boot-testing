@@ -18,5 +18,5 @@ public class ReservationRestController {
     public Collection<Reservation> getReservations() {
         return repository.findAll();
     }
-    
+
 }
